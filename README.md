@@ -5,3 +5,4 @@ Given the reference manual 'refnam.pdf', the simulation was fixed.
 
 First the header file 'disk.h' was not present, so was added and its contents filled according to the reference manual.
 The same was done for the 'system.h' header file.
+Then the missing distance function in 'disk.cpp' and uniform function in 'system.cpp' were implemented.
