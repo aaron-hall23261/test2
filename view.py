@@ -33,5 +33,5 @@ def update(frame):
         patch.set_radius(r)
     return circles
 
-ani = FuncAnimation(fig, update, frames=len(filenames), blit=True)
+ani = FuncAnimation(fig, update, frames=len(filenames), blit=True, interval=60)
 plt.show()

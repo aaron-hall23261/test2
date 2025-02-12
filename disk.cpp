@@ -14,7 +14,7 @@ void Disk::move(double dx, double dy){
 
 double Disk::distance(Disk& other){
 
-    double d = sqrt(pow(this->x - other.x, 2) + pow(this->y - other.y, 2)) - this->radius - other.radius;
+    double d = sqrt(pow(this->x - other.x, 2) + pow(this->y - other.y, 2));
 
     return d;
 
