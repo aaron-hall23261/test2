@@ -28,5 +28,5 @@ class System {
         double uniform(double min, double max);
 };
 
-#endif
+#endif // !SYSTEM_H
 
