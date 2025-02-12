@@ -6,7 +6,7 @@ Given the reference manual 'refnam.pdf', the simulation was fixed.
 First the header file 'disk.h' was not present, so was added and its contents filled according to the reference manual.
 The same was done for the 'system.h' header file.
 Then the missing distance function in 'disk.cpp' and uniform function in 'system.cpp' were implemented.
-Finally all necessary include statements were addd to the .cpp files.
+Finally all necessary include statements were added to the .cpp files.
 
 To see the commits, the 'git log' command can be used to follow the changes
 
